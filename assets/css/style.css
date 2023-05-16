@@ -1,0 +1,190 @@
+/* general text formatting */
+h1, h2, h3, nav, footer {
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 100%;
+   background-color: #E8EAF6;
+}
+
+/*Table for userlist page */
+.GameTableBox>table{
+	border: 1px solid;
+	margin-left: auto;
+  	margin-right: auto;
+}
+.GameTableBox>table th{
+	border: 1px solid;
+}
+.GameTableBox>table td{
+	border: 1px solid;
+}
+
+/* header and footer */
+header, footer {
+   color: white;
+   background-color: #1A237E;
+   margin: 0em 4em 0.25em 4em;
+}
+header h1 { 
+   padding: 0.5rem 0 0 1.25rem;
+   font-size: 2rem;
+   font-weight: bold;
+}
+header p { 
+   font-size: 1rem;
+   font-style: italic;
+   margin-bottom: 1rem;
+   padding: 0 0 0 1.25rem;
+}
+
+/* main article styling */
+main {
+   background-color: white;
+   margin: 0% 15%;
+   margin: 0em 4em 0.25em 15em;
+   padding: 1em;
+
+}
+
+section {
+   margin-bottom: 1em;
+   padding: 0;
+   width: 100%;
+}
+
+details {
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 100%;
+   border: 1px solid #000000;
+   border-style: solid;
+   border-radius: 1em;
+   padding-left: 2em;
+   color:#545e90
+}
+
+summary {
+   padding: 7px;
+   margin-left: -2em;
+   color: #1A237E;
+   font-weight:bold;
+}
+
+
+legend {  
+   font-size: 1.35rem;
+   background-color: #7986CB;
+   height: 1.70rem;
+   color: #E8EAF6;
+   text-transform: uppercase;
+   width: 100%;
+   margin-top: 5px;
+   padding: 5px 0;
+}
+legend p{
+   display: inline;
+   padding: 0px 0px 0px 5px;
+}
+
+fieldset {
+   margin: 0;
+   padding: 0;
+   background-color: #C5CAE9;
+   width: 100%;
+   border: none;
+}
+form p{
+   margin-top: 0.5em;
+   margin-left: 1em;
+   padding: 0px 0px 0px 5px;
+}
+form input, select{
+   margin: 5px;
+}
+form input[type='submit'], input[type='reset']{
+   margin: 10px 10px 10px 20px;
+   font-size: medium;
+   text-transform: capitalize;
+}
+
+form input[type='radio']{
+   float: none;
+    margin: 0;
+    position: relative;
+    top: -1em;
+    width: 2em;
+}
+
+section h2{
+   font-size: 1.35rem;
+   background-color: #545e90;
+   height: 1.70rem;
+   color: #E8EAF6;
+   border: solid 1px black;
+   text-transform: uppercase;
+   width: 100%;
+   margin-bottom: 5px;
+   padding: 5px 0;
+}
+
+label img{
+   margin: 1em 0em;
+   vertical-align: middle;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+}
+
+img{
+   width: 50px;
+   border-radius: 50%;
+   position: relative;
+}
+
+
+/*From Prof Notes*/
+/* Navigation bar on the left of the page */
+#navBarLeft {
+	display: block;
+	background-color: #dddddd;
+	width: 10em;
+	border: 1px solid #555;
+	text-align: center;
+	overflow: auto;
+   margin: 0em 15em 0.25em 4em;
+}
+#navBarLeft>ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 10em;
+	background-color: #f1f1f1;
+	position: fixed;
+	height: 100%;
+}
+
+#navBarLeft>ul>li a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color on hover */
+#navBarLeft>ul>li a:hover {
+	background-color: #555;
+	color: white;
+}
+
+#navBarLeft>ul>li a.active {
+	background-color: #545e90;
+	color: white;
+  }
+#navBarLeft>ul>li a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+}
+
+
+
